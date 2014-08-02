@@ -1,0 +1,22 @@
+body {
+    padding: 1em !important;
+    margin: none !important;
+}
+
+.footer, .header, .content > h1 {
+    display: none !important;
+}
+
+.content {
+    margin: none !important;
+    padding: none !important;
+}
+
+.content form {
+    zoom: 1.5;
+}
+
+.content form input[type=submit] {
+    padding: 1em !important;
+    content: 'Login' !important;
+}

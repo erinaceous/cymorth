@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="switch_language">Cymraeg</string>
+    <string name="app_name">Cymorth</string>
+    <string name="timetable">Timetable</string>
+    <string name="settings">Settings</string>
+    <string name="import_timetable">Import Timetable</string>
+    <string name="your_timetable">Timetable</string>
+    <string name="select_file">Select File</string>
+    <string name="select_file_to_import">Select a HTML file to import</string>
+    <string name="please_install_file_manager">Can\'t browse files - please
+        install a file manager.</string>
+    <string name="importing">Importing...</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="couldnt_add_database">Couldn\'t import this to the database.
+        Sorry!</string>
+    <string name="timetable_starting_on" formatted="false"><![CDATA[Timetable starting on <b>%1$tA %1$te %1$tB</b>]]></string>
+    <string name="couldnt_open_file">Couldn\'t open file for reading. Sorry!</string>
+    <string name="when_times_clash_overwrite">When new lecture times clash with old lecture times, overwrite the old ones</string>
+    <string name="type_lecture">Lecture</string>
+    <string name="type_practical">Practical</string>
+    <string name="type_seminar">Seminar</string>
+    <string name="type_tutorial">Tutorial</string>
+    <string name="added_X_lectures">Added %d lectures to timetable</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="notify_when_lecture_soon">Notify me when a lecture is starting soon</string>
+    <string name="notify_alarm_morning">Set an alarm every morning before my first lecture</string>
+    <string name="show_persistent_notify_ongoing">Show a persistent notification when I am currently meant to be in a lecture</string>
+    <string name="title_notify_when_lecture_soon">Notify of incoming lectures</string>
+    <string name="title_notify_alarm_morning">Wake me up in the morning</string>
+    <string name="title_show_persistent_notify_ongoing">Tell me what lecture I should be in</string>
+    <string name="lecture_soon">Lecture soon!</string>
+    <string name="lecture_soon_detailed" formatted="false">
+<![CDATA[In <b>%s</b> at
+    <b>%s</b>]]>
+    </string>
+    <string name="export_to_calendar">Export lecture to calendar</string>
+    <string name="copy_to_clipboard">Copy to clipboard</string>
+    <string name="lecture_clipboard_info" formatted="false">%s, at %s in room
+    %s</string>
+    <string name="copied_to_clipboard">Copied lecture details to clipboard</string>
+    <string name="download_from_student_record">Download from Student Record</string>
+
+    <string-array name="spinner_notify_incoming_text">
+        <item>Don\'t notify me</item>
+        <item>As soon as the last lecture ends</item>
+        <item>5 minutes before</item>
+        <item>10 minutes before</item>
+        <item>15 minutes before</item>
+        <item>30 minutes before</item>
+        <item>1 hour before</item>
+        <item>2 hours before</item>
+    </string-array>
+    <string-array name="spinner_notify_incoming_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="spinner_notify_morning_text">
+        <item>Don\'t set an alarm</item>
+        <item>5 minutes before</item>
+        <item>10 minutes before</item>
+        <item>15 minutes before</item>
+        <item>30 minutes before</item>
+        <item>1 hour before</item>
+        <item>2 hours before</item>
+    </string-array>
+    <string-array name="spinner_notify_morning_values">
+        <item>-1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+    </string-array>
+
+    <string name="title_activity_download_from_web">Download from Student Record</string>
+    <string name="download_timetable_for_week_containing">Download your timetable for the week containing this date:</string>
+    <string name="button_download">Download!</string>
+    <string name="title_activity_login">Login to Student Record</string>
+
+</resources>

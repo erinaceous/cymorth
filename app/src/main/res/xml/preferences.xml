@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:title="@string/title_notify_when_lecture_soon"
+                    android:summary="@string/notify_when_lecture_soon"
+                    android:key="notify_when_lecture_soon"
+                    android:defaultValue="-1"
+                    android:numeric="integer"
+                    android:entries="@array/spinner_notify_incoming_text"
+                    android:entryValues="@array/spinner_notify_incoming_values" />
+    <ListPreference android:title="@string/title_notify_alarm_morning"
+                    android:summary="@string/notify_alarm_morning"
+                    android:key="notify_alarm_morning"
+                    android:defaultValue="-1"
+                    android:numeric="integer"
+                    android:entries="@array/spinner_notify_morning_text"
+                    android:entryValues="@array/spinner_notify_morning_values"
+            />
+    <!-- <CheckBoxPreference
+            android:title="@string/title_show_persistent_notify_ongoing"
+                        android:summary="@string/show_persistent_notify_ongoing"
+                        android:key="show_persistent_notify_ongoing"
+                        android:defaultValue="false" /> -->
+</PreferenceScreen>

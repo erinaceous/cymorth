@@ -1,0 +1,48 @@
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/download_from_student_record"
+        android:id="@+id/button_from_web"
+        android:layout_gravity="center_horizontal"
+        android:onClick="btn_download" />
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_file"
+            android:id="@+id/button_select"
+            android:layout_gravity="center"
+            android:onClick="btn_browse"/>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/import_info"
+            android:padding="6pt"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textAlignment="center"/>
+
+    <CheckBox
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/when_times_clash_overwrite"
+            android:id="@+id/check_overwrite"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/import_timetable"
+            android:id="@+id/button_import"
+            android:onClick="btn_import"
+            android:enabled="false"
+            />
+
+</LinearLayout>
