@@ -208,15 +208,16 @@ public class TimetableView extends FragmentActivity implements TabListener {
 
         @Override
         public CharSequence getPageTitle(int position) {
-            Locale l = Locale.getDefault();
+            //Locale l = Locale.getDefault();
             Calendar c = UniCalendar.getInstance();
             Date day;
             String prefix = "";
             String suffix = "";
             c.set(Calendar.DAY_OF_WEEK, (position) + Calendar.MONDAY);
             day = c.getTime();
-            return prefix + String.format("%1$ta %1$td",
-                    day).toUpperCase() + suffix;
+            //return prefix + String.format("%1$ta %1$td",
+            //        day).toUpperCase() + suffix;
+            return Utils.getLocalDateShort(getApplicationContext(), c).toUpperCase();
         }
     }
 

@@ -15,7 +15,8 @@
     <string name="please_wait">Please Wait...</string>
     <string name="couldnt_add_database">Couldn\'t import this to the database.
         Sorry!</string>
-    <string name="timetable_starting_on" formatted="false"><![CDATA[Timetable starting on <b>%1$tA %1$te %1$tB</b>]]></string>
+    <!-- <string name="timetable_starting_on" formatted="false"><![CDATA[Timetable starting on <b>%1$tA %1$te %1$tB</b>]]></string> -->
+    <string name="timetable_starting_on" formatted="false"><![CDATA[Timetable starting on <b>%s</b>]]></string>
     <string name="couldnt_open_file">Couldn\'t open file for reading. Sorry!</string>
     <string name="when_times_clash_overwrite">When new lecture times clash with old lecture times, overwrite the old ones</string>
     <string name="type_lecture">Lecture</string>
@@ -87,5 +88,33 @@
     <string name="download_timetable_for_week_containing">Download your timetable for the week containing this date:</string>
     <string name="button_download">Download!</string>
     <string name="title_activity_login">Login to Student Record</string>
+
+    <!-- Date stuff -->
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
 
 </resources>

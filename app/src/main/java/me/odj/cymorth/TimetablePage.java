@@ -46,7 +46,8 @@ public class TimetablePage extends Fragment {
         String[] items = { "Error loading timetable" };
         Calendar c = UniCalendar.getInstance();
         c.setTime(this.tab_day);
-        tv.setText(String.format("%1$tA %1$te %1$tB", c));
+        //tv.setText(String.format("%1$tA %1$te %1$tB", c));
+        tv.setText(Utils.getLocalDate(rootView.getContext(), c));
 
         DBHelper helper = new DBHelper(rootView.getContext());
         cur = helper.getDaysLectures(UniCalendar.getStartOfUniDay(c.getTime()).getTime());

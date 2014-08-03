@@ -17,6 +17,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.InputStream;
+import java.util.Calendar;
 import java.util.Date;
 
 public class ImportActivity extends Activity {
@@ -111,8 +112,10 @@ public class ImportActivity extends Activity {
                         InputStream in = cr.openInputStream(uri);
                         this.importer = HTMLImporter.fromFile(in);
                         Date[] dates = this.importer.getDates();
+                        Calendar c = UniCalendar.getInstance();
+                        c.setTime(dates[0]);
                         info += String.format(getString(R.string
-                                .timetable_starting_on), dates[0]);
+                                .timetable_starting_on), Utils.getLocalDate(this, c));
                         Button button = (Button) this.findViewById(R.id
                                 .button_import);
                         button.setEnabled(true);

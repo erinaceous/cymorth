@@ -12,7 +12,8 @@
     <string name="importing">Mewnforio...</string>
     <string name="please_wait">Os gwelwch yn dda Aros...</string>
     <string name="couldnt_add_database">Methu mewnforio hyn i\'r gronfa ddata. Mae\'n ddrwg gennym!</string>
-    <string name="timetable_starting_on" formatted="false"><![CDATA[Amserlen yn dechrau ar <b>%1$tA %1$te %1$tB</b>]]></string>
+    <!-- <string name="timetable_starting_on" formatted="false"><![CDATA[Amserlen yn dechrau ar <b>%1$tA %1$te %1$tB</b>]]></string> -->
+    <string name="timetable_starting_on" formatted="false"><![CDATA[Amserlen yn dechrau ar <b>%s</b>]]></string>
     <string name="couldnt_open_file">Methu agor ffeil ar gyfer darllen. Mae\'n ddrwg gennym!</string>
     <string name="when_times_clash_overwrite">Pan fydd amseroedd ddarlithio newydd yn gwrthdaro â hen amser darlithio, ysgrifennu dros y hen rai</string>
     <string name="type_lecture">Ddarlith</string>
@@ -60,4 +61,36 @@
     <string name="download_timetable_for_week_containing">Lawrlwythwch eich amserlen ar gyfer yr wythnos sy\'n cynnwys y dyddiad hwn:</string>
     <string name="button_download">Lawrlwytho!</string>
     <string name="title_activity_login">Mewngofnodi i Gofnod Myfyrwyr</string>
+
+    <!-- Format days correctly -->
+    <string name="monday">Dydd Llun</string>
+    <string name="tuesday">Dydd Mawrth</string>
+    <string name="wednesday">Dydd Mercher</string>
+    <string name="thursday">Dydd Iau</string>
+    <string name="friday">Dydd Gwener</string>
+    <string name="saturday">Dydd Sadwrn</string>
+    <string name="sunday">Dydd Sul</string>
+
+    <!-- And shortened days -->
+    <string name="mon">Llun</string>
+    <string name="tue">Maw</string>
+    <string name="wed">Mer</string>
+    <string name="thu">Iau</string>
+    <string name="fri">Gwe</string>
+    <string name="sat">Sad</string>
+    <string name="sun">Sul</string>
+
+    <!-- And months -->
+    <string name="january">Ionawr</string>
+    <string name="february">Chwefror</string>
+    <string name="march">Mawrth</string>
+    <string name="april">Ebrill</string>
+    <string name="may">Mai</string>
+    <string name="june">Mehefin</string>
+    <string name="july">Gorffennaf</string>
+    <string name="august">Awst</string>
+    <string name="september">Medi</string>
+    <string name="october">Hydref</string>
+    <string name="november">Tachwedd</string>
+    <string name="december">Rhagfyr</string>
 </resources>
