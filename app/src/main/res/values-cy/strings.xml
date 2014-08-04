@@ -4,13 +4,13 @@
     <string name="app_name">Cymorth</string>
     <string name="timetable">Amserlen</string>
     <string name="settings">Gosodiadau</string>
-    <string name="import_timetable">Amserlen Mewnforio</string>
+    <string name="import_timetable">Mewnforio Amserlen</string>
     <string name="your_timetable">Amserlen</string>
     <string name="select_file">Dewis Ffeil</string>
     <string name="select_file_to_import">Dewiswch ffeil HTML i fewnforio</string>
-    <string name="please_install_file_manager">Methu pori ffeiliau - gwelwch yn dda gorsedda rheolwr ffeil.</string>
+    <string name="please_install_file_manager">Methu pori ffeiliau - gorseddwch rheolwr ffeil os gwelwch yn dda.</string>
     <string name="importing">Mewnforio...</string>
-    <string name="please_wait">Os gwelwch yn dda Aros...</string>
+    <string name="please_wait">Aros os gwelwch yn dda...</string>
     <string name="couldnt_add_database">Methu mewnforio hyn i\'r gronfa ddata. Mae\'n ddrwg gennym!</string>
     <!-- <string name="timetable_starting_on" formatted="false"><![CDATA[Amserlen yn dechrau ar <b>%1$tA %1$te %1$tB</b>]]></string> -->
     <string name="timetable_starting_on" formatted="false"><![CDATA[Amserlen yn dechrau ar <b>%s</b>]]></string>
@@ -20,24 +20,24 @@
     <string name="type_practical">Ymarferol</string>
     <string name="type_seminar">Seminar</string>
     <string name="type_tutorial">Tiwtorial</string>
-    <string name="added_X_lectures">Ychwanegwyd %d darlith i amserlen</string>
+    <string name="added_X_lectures">Ychwanegwyd %d darlith i'r amserlen</string>
     <string name="title_activity_settings">Gosodiadau</string>
     <string name="action_settings">Gosodiadau</string>
-    <string name="notify_when_lecture_soon">Rhoi gwybod i mi pan darlith yn dechrau yn fuan</string>
+    <string name="notify_when_lecture_soon">Rhoi gwybod i mi pan mae darlith yn dechrau yn fuan</string>
     <string name="notify_alarm_morning">Gosod larwm bob bore cyn fy ddarlith gyntaf</string>
-    <string name="show_persistent_notify_ongoing">Dangos hysbysiad parhaus pan Hyn o bryd rwy\'n i fod mewn darlith</string>
-    <string name="title_notify_when_lecture_soon">Rhoi gwybod o ddarlithoedd sy\'n dod i mewn</string>
+    <string name="show_persistent_notify_ongoing">Dangos hysbysiad parhaus pan rwy\'n i fod mewn darlith</string>
+    <string name="title_notify_when_lecture_soon">Rhoi gwybod am ddarlithoedd darpar</string>
     <string name="title_notify_alarm_morning">Deffro fi i fyny yn y bore</string>
-    <string name="title_show_persistent_notify_ongoing">Dywedwch wrthyf beth darlith ddylwn i fod mewn</string>
+    <string name="title_show_persistent_notify_ongoing">Dywedwch wrthyf pa darlith ddylwn i fod mewn</string>
     <string name="lecture_soon">Darlithio yn fuan!</string>
     <string name="lecture_soon_detailed" formatted="false">
-<![CDATA[Yn <b>%s<b> yn <b>%s</b>]]>
+<![CDATA[Yn <b>%s<b> ar <b>%s</b>]]>
     </string>
-    <string name="export_to_calendar">Allforio darlith i calendr</string>
-    <string name="copy_to_clipboard">Copi i clipfwrdd</string>
-    <string name="lecture_clipboard_info" formatted="false">%s, yn %s, yn ystafell %s</string>
-    <string name="copied_to_clipboard">Manylion darlith Anfonwyd copi i clipfwrdd</string>
-    <string name="download_from_student_record">Lawrlwythwch o Gofnod Myfyrwyr</string>
+    <string name="export_to_calendar">Allforio darlith i'r calendr</string>
+    <string name="copy_to_clipboard">Copi i'r clipfwrdd</string>
+    <string name="lecture_clipboard_info" formatted="false">%s, ar %s, yn ystafell %s</string>
+    <string name="copied_to_clipboard">Anfonwyd copi o fanylion darlith i'r clipfwrdd</string>
+    <string name="download_from_student_record">Lawrlwythwch o'r Cofnod Myfyrwyr</string>
     <string-array name="spinner_notify_incoming_text">
         <item>Peidiwch â rhoi gwybod i mi</item>
         <item>Cyn gynted ag y ddarlith olaf yn dod i ben</item>
@@ -57,7 +57,7 @@
         <item>1 awr cyn</item>
         <item>2 awr cyn</item>
     </string-array>
-    <string name="title_activity_download_from_web">Lawrlwythwch o Gofnod Myfyrwyr</string>
+    <string name="title_activity_download_from_web">Lawrlwythwch o'r Cofnod Myfyrwyr</string>
     <string name="download_timetable_for_week_containing">Lawrlwythwch eich amserlen ar gyfer yr wythnos sy\'n cynnwys y dyddiad hwn:</string>
     <string name="button_download">Lawrlwytho!</string>
     <string name="title_activity_login">Mewngofnodi i Gofnod Myfyrwyr</string>
