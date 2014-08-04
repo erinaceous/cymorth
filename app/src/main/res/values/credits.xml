@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string name="credits">
+Developed by Owain Jones
+[<a href="https://github.com/erinaceous">erinaceous</a>]
+\n
+\n
+<b>Translations by:</b>\n
+<ul>
+    <li>Chris Rees
+    [<a href="https://github.com/chrisyellostudio">chrisyellostudio</a>]</li>
+</ul>
+\n
+\n
+Cymorth uses the <a href="http://jsoup.org">JSoup</a> and
+<a href="http://loopj.com/android-async-http/">loopj.AsyncHttpClient</a> libraries.
+This app also wouldn\'t exist without the Student Record website maintained by
+<a href="http://www.aber.ac.uk/en/is/">Information Services</a>.
+\n
+\n
+Good job, boots!
+
+</string></resources>

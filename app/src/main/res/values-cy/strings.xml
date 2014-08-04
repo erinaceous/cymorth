@@ -20,7 +20,7 @@
     <string name="type_practical">Ymarferol</string>
     <string name="type_seminar">Seminar</string>
     <string name="type_tutorial">Tiwtorial</string>
-    <string name="added_X_lectures">Ychwanegwyd %d darlith i'r amserlen</string>
+    <string name="added_X_lectures">Ychwanegwyd %d darlith i\'r amserlen</string>
     <string name="title_activity_settings">Gosodiadau</string>
     <string name="action_settings">Gosodiadau</string>
     <string name="notify_when_lecture_soon">Rhoi gwybod i mi pan mae darlith yn dechrau yn fuan</string>
@@ -33,11 +33,11 @@
     <string name="lecture_soon_detailed" formatted="false">
 <![CDATA[Yn <b>%s<b> ar <b>%s</b>]]>
     </string>
-    <string name="export_to_calendar">Allforio darlith i'r calendr</string>
-    <string name="copy_to_clipboard">Copi i'r clipfwrdd</string>
+    <string name="export_to_calendar">Allforio darlith i\'r calendr</string>
+    <string name="copy_to_clipboard">Copi i\'r clipfwrdd</string>
     <string name="lecture_clipboard_info" formatted="false">%s, ar %s, yn ystafell %s</string>
-    <string name="copied_to_clipboard">Anfonwyd copi o fanylion darlith i'r clipfwrdd</string>
-    <string name="download_from_student_record">Lawrlwythwch o'r Cofnod Myfyrwyr</string>
+    <string name="copied_to_clipboard">Anfonwyd copi o fanylion darlith i\'r clipfwrdd</string>
+    <string name="download_from_student_record">Lawrlwythwch o\'r Cofnod Myfyrwyr</string>
     <string-array name="spinner_notify_incoming_text">
         <item>Peidiwch â rhoi gwybod i mi</item>
         <item>Cyn gynted ag y ddarlith olaf yn dod i ben</item>
@@ -57,7 +57,10 @@
         <item>1 awr cyn</item>
         <item>2 awr cyn</item>
     </string-array>
-    <string name="title_activity_download_from_web">Lawrlwythwch o'r Cofnod Myfyrwyr</string>
+
+    <string name="about">Ynglŷn</string>
+
+    <string name="title_activity_download_from_web">Lawrlwythwch o\'r Cofnod Myfyrwyr</string>
     <string name="download_timetable_for_week_containing">Lawrlwythwch eich amserlen ar gyfer yr wythnos sy\'n cynnwys y dyddiad hwn:</string>
     <string name="button_download">Lawrlwytho!</string>
     <string name="title_activity_login">Mewngofnodi i Gofnod Myfyrwyr</string>

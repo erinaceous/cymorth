@@ -143,6 +143,10 @@ public class TimetableView extends FragmentActivity implements TabListener {
                 SettingsActivity.class);
         item2.setIntent(intent2);
 
+        MenuItem item3 = menu.findItem(R.id.action_about);
+        Intent intent3 = new Intent(this.getApplicationContext(), About.class);
+        item3.setIntent(intent3);
+
         return true;
     }
 

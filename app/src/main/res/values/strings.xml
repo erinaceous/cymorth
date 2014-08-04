@@ -84,6 +84,7 @@
         <item>120</item>
     </string-array>
 
+    <string name="about">About</string>
     <string name="title_activity_download_from_web">Download from Student Record</string>
     <string name="download_timetable_for_week_containing">Download your timetable for the week containing this date:</string>
     <string name="button_download">Download!</string>
